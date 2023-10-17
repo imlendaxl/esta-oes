@@ -1,36 +1,38 @@
+#comentario bryan
+
 print('estamos no ano de 2023')
 dia = int(input('digite um dia\n'))
 mes = int(input('digite o mês\n '))
 
 def estaçaodoano(dia, mes):
     if mes in (1, 2):
-        return 'VERAO'
+        return 'summer'
     elif mes == 3:
         if dia < 20:
-            return 'VERAO'
+            return 'summer'
         else:
-            return 'OUTONO'
+            return 'fall'
     elif mes in (4, 5):
-        return 'OUTONO'
+        return 'fall'
     elif mes == 6:
         if dia < 21:
-            return 'OUTONO'
+            return 'fall'
         else:
-            return 'INVERNO'
+            return 'winter'
     elif mes in (7, 8):
-        return 'INVERNO'
+        return 'winter'
     elif mes == 9:
         if dia < 23:
-            return 'INVERNO'
+            return 'winter'
         else:
-            return 'PRIMAVERA'
+            return 'spring'
     elif mes in (10, 11):
-        return 'PRIMAVERA'
+        return 'spring'
     elif mes == 12:
         if dia < 22:
-            return 'PRIMAVERA'
+            return 'spring'
         else:
-            return 'VERAO'
+            return 'summer'
 
 resultado = estaçaodoano(dia, mes)
 print(resultado)
