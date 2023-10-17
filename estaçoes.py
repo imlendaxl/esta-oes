@@ -36,3 +36,5 @@ def seasons(dia, mes):
 
 resultado = seasons(dia, mes)
 print(resultado)
+
+#vc e um rapaz seu guri
