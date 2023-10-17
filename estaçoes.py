@@ -4,7 +4,7 @@ print('estamos no ano de 2023')
 dia = int(input('digite um dia\n'))
 mes = int(input('digite o mês\n '))
 
-def estaçaodoano(dia, mes):
+def seasons(dia, mes):
     if mes in (1, 2):
         return 'summer'
     elif mes == 3:
@@ -34,5 +34,5 @@ def estaçaodoano(dia, mes):
         else:
             return 'summer'
 
-resultado = estaçaodoano(dia, mes)
+resultado = seasons(dia, mes)
 print(resultado)
